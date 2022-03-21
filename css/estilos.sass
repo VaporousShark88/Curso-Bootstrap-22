@@ -1,0 +1,87 @@
+// ----- VARIABLES ----- //
+$base: #060606
+$colorP: #0D47A1
+$colorS: #FBC02D
+$ColorT: #689F38
+
+
+// ----- ESTILOS GENERALES ----- //
+
+.tSlow
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+   
+a
+    margin: 0
+    padding: 0
+    &:hover
+        color: $colorS
+        @extend .tSlow;
+h1,h2,h3,h4
+    color: $colorP 
+    
+h5,h6
+    color: $colorS
+    text-shadow: 2px 2px 3px black
+    font-size: 1.80rem !important
+    letter-spacing: 3px 
+
+.btn-code
+    background-color: $colorS !important
+    font-size: 24px
+    font-weight: 500 !important
+    @extend .tSlow;
+    &:hover
+        background-color: $colorP !important
+        color: white !important
+        @extend .tSlow;
+
+
+// ----- ESTILOS BARRA DE NAVEGACIÓN ----- //
+
+#header
+    img
+        width: 220px
+        filter: invert(1)
+
+.text-nav
+        color: $colorS !important
+        @extend .tSlow;
+        &:hover
+            color: $colorS
+            @extend .tSlow;
+
+// ----- ESTILOS SLIDER ----- //
+
+.carousel-caption
+    margin-bottom: 70px
+    p
+        font-size: 22px;
+        text-shadow: 2px 2px 3px black
+
+// ----- ESTILOS lUGAR DE TRABAJO ----- //  
+
+#place-time
+    background-color: #343a40!important
+    img  
+        max-width: 100%
+    h2
+        color: white
+    p
+        color: white
+        text-align: justify         
+
+
+// ----- ESTILOS FOOTER ----- //
+footer
+    background-color: $colorP
+    a
+        color: white
+        @extend .tSlow;
+        &:hover
+            text-decoration: none
+            color: $colorS
+         
+       

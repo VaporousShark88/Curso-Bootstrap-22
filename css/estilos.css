@@ -1,0 +1,89 @@
+.tSlow, a:hover, .btn-code, .btn-code:hover, .text-nav, .text-nav:hover, footer a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  color: #FBC02D;
+}
+
+h1, h2, h3, h4 {
+  color: #0D47A1;
+}
+
+h5, h6 {
+  color: #FBC02D;
+  text-shadow: 2px 2px 3px black;
+  font-size: 1.80rem !important;
+  letter-spacing: 3px;
+}
+
+.btn-code {
+  background-color: #FBC02D !important;
+  font-size: 24px;
+  font-weight: 500 !important;
+}
+
+.btn-code:hover {
+  background-color: #0D47A1 !important;
+  color: white !important;
+}
+
+#header img {
+  width: 220px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.text-nav {
+  color: #FBC02D !important;
+}
+
+.text-nav:hover {
+  color: #FBC02D;
+}
+
+.carousel-caption {
+  margin-bottom: 70px;
+}
+
+.carousel-caption p {
+  font-size: 22px;
+  text-shadow: 2px 2px 3px black;
+}
+
+#place-time {
+  background-color: #343a40 !important;
+}
+
+#place-time img {
+  max-width: 100%;
+}
+
+#place-time h2 {
+  color: white;
+}
+
+#place-time p {
+  color: white;
+  text-align: justify;
+}
+
+footer {
+  background-color: #0D47A1;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #FBC02D;
+}
+/*# sourceMappingURL=estilos.css.map */
